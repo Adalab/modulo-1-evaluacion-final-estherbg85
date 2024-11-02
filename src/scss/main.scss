@@ -9,9 +9,7 @@
     font-weight: 400;
     font-style: normal;  
 }
-label.menu {
-    background-size: 20px;
-}
+
 .header {
     align-items: center;
     color: white;
@@ -31,13 +29,15 @@ label.menu {
     padding-bottom: 35px;
 }
 .menu a {
+    position: fixed;
     padding: 10px;
-    background-color: rgb(57, 58, 121);
+    background-color: #0271bc;
     color: white;
     font-size: 15px;
     text-decoration: none;
   
 }
+
 input.menu {
 
     display: none;
