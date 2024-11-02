@@ -102,6 +102,8 @@ input.menu {
     height: 45px;
     border:2px solid #f26002;
     margin-bottom: 35px;
+    transform: rotate(0deg);
+    
 }
 .articles {
     text-align: center;
@@ -135,6 +137,10 @@ input.menu {
    padding-inline: 70px;
    padding-bottom: 41px;
 }
+.reasons:hover {
+    transform: rotate(45deg);
+    background-color: #56aee9;
+}
 .reasons {
     font-family: "Roboto", serif;
     font-weight: 500;
@@ -146,6 +152,8 @@ input.menu {
     color: white;
     background-color: #f26002;
     border: solid #f26002;
+    transform: rotate(0deg);
+    transition: transform 0.4s ease-in-out
 }
 .footer {
     background-color: rgb(40, 53, 109);
