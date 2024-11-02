@@ -18,7 +18,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-
 }
 .header h3 {
     font-family: "roboto regular" serif;
@@ -27,6 +26,14 @@
     font-size: 16.5px;
     text-align: center;
     padding-bottom: 35px;
+
+    @media (width > 768px){
+        font-size: 24px;
+        margin-left: 220px;
+        margin-right: 225px;
+       background-size: cover;
+    }
+
 }
 .menu a {
     position: fixed;
@@ -35,11 +42,10 @@
     color: white;
     font-size: 15px;
     text-decoration: none;
+
   
 }
-
-input.menu {
-
+input .menu {
     display: none;
 }
 .title {
@@ -48,13 +54,18 @@ input.menu {
     text-align: center;
     padding-top: 550px;
     padding-bottom: 35px;
+
+    @media (width >768px) {
+        font-size: 80px;
+        padding-top: 400px;
+    }
+    
 }
 .header p {
     text-align: center;
     font-size: 25px;
     padding-bottom: 40px;
 }
-
 .down {
     position: relative;
     left: 45%;
@@ -63,7 +74,6 @@ input.menu {
     border-radius: 50%;
     border: white;
     background-color: white;
-
 }
 .container {
     margin: 15px;
@@ -103,7 +113,6 @@ input.menu {
     border:2px solid #f26002;
     margin-bottom: 35px;
     transform: rotate(0deg);
-    
 }
 .articles {
     text-align: center;
@@ -118,10 +127,8 @@ input.menu {
     font-size: 24px;
     padding-bottom: 49px;
 }
-
 .all-article {
     display: grid;
-   
 }
 .article__title {
     font-family: "Roboto slab", serif;
@@ -133,9 +140,9 @@ input.menu {
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
-   font-size: 18px;
-   padding-inline: 70px;
-   padding-bottom: 41px;
+    font-size: 18px;
+    padding-inline: 70px;
+    padding-bottom: 41px;
 }
 .reasons:hover {
     transform: rotate(45deg);
@@ -179,7 +186,6 @@ input.menu {
     text-decoration: none;
 }
 .links {
-   
     padding-top: 24px;
     padding-bottom:30px ;
 }
