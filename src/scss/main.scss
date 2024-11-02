@@ -156,9 +156,14 @@ input.menu {
     transition: transform 0.4s ease-in-out
 }
 .footer {
-    background-color: rgb(40, 53, 109);
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    background-color: #304268;
     color: white;
     text-align: center;
+    line-height: 1.88;
 }
 .up {
     position: relative;
@@ -169,5 +174,13 @@ input.menu {
     border: white;
     background-color: white;
 }
-
-
+.links {
+   
+    padding-top: 24px;
+    padding-bottom:30px ;
+}
+.copy {
+    font-size: 14px;
+    padding-top: 32px;
+    padding-bottom: 36px;
+}
