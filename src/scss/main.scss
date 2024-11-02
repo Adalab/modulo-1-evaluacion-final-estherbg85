@@ -9,6 +9,9 @@
     font-weight: 400;
     font-style: normal;  
 }
+label.menu {
+    background-size: 20px;
+}
 .header {
     align-items: center;
     color: white;
@@ -20,7 +23,6 @@
 
 }
 .header h3 {
-   
     font-family: "roboto regular" serif;
     font-weight: 400;
     font-style: normal;
@@ -29,14 +31,15 @@
     padding-bottom: 35px;
 }
 .menu a {
+    padding: 10px;
     background-color: rgb(57, 58, 121);
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     text-decoration: none;
   
 }
 input.menu {
-  
+
     display: none;
 }
 .title {
@@ -47,18 +50,19 @@ input.menu {
     padding-bottom: 35px;
 }
 .header p {
-text-align: center;
-font-size: 25px;
-padding-bottom: 40px;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 40px;
 }
 
 .down {
-   position: relative;
-   left: 45%;
-   height: 50px;
-   width: 50px;
-   border-radius: 50%;
-   border: white;
+    position: relative;
+    left: 45%;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: white;
+    background-color: white;
 
 }
 .container {
@@ -66,7 +70,7 @@ padding-bottom: 40px;
 }
 .tips {
     padding-top: 40px;
-padding-bottom: 15px;
+    padding-bottom: 15px;
     font-size: 14px;
     color: #8ccbea
 }
@@ -80,7 +84,12 @@ padding-bottom: 15px;
     padding-bottom: 26px;
     color: #4a4a4a;
 }
+.go:hover {
+    background-color: #56aee9; 
+    transform: scale(1.3); 
+}
 .go {
+    transition: background-color 0.8s ease, transform 0.8s ease;
     font-family: "Roboto", serif;
     font-weight: 500;
     font-style: normal;
@@ -95,7 +104,6 @@ padding-bottom: 15px;
     margin-bottom: 35px;
 }
 .articles {
-    display: grid;
     text-align: center;
     background-color:  #eff9ff;
     padding-top: 29px;
@@ -109,7 +117,7 @@ padding-bottom: 15px;
     padding-bottom: 49px;
 }
 
-.article {
+.all-article {
     display: grid;
    
 }
@@ -127,7 +135,7 @@ padding-bottom: 15px;
    padding-inline: 70px;
    padding-bottom: 41px;
 }
-.more-reasons {
+.reasons {
     font-family: "Roboto", serif;
     font-weight: 500;
     font-style: normal;
@@ -135,7 +143,6 @@ padding-bottom: 15px;
     font-size: 20px;
     height: 45px;
     width: 140px;
-
     color: white;
     background-color: #f26002;
     border: solid #f26002;
@@ -144,6 +151,15 @@ padding-bottom: 15px;
     background-color: rgb(40, 53, 109);
     color: white;
     text-align: center;
+}
+.up {
+    position: relative;
+    top: -20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: white;
+    background-color: white;
 }
 
 
