@@ -176,6 +176,7 @@ input .menu {
     @media (width > 768px){
         font-size: 20px;
         padding: 0;
+        padding-bottom: 50px;
     }
 }
 .reasons:hover {
@@ -196,9 +197,7 @@ input .menu {
     transform: rotate(0deg);
     transition: transform 0.4s ease-in-out;
 
-    @media (width > 768px){
-        
-    }
+   
 }
 .footer {
     font-family: "Roboto", serif;
