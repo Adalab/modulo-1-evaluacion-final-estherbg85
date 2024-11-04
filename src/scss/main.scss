@@ -242,6 +242,16 @@ a.down {
     border-radius: 50%;
     border: white;
     background-color: white;
+    animation: acelerate 2s  ease infinite forwards;
+
+@keyframes acelerate {
+    from {
+        transform: translate(0px) ;
+    }
+    to {
+        transform: translateX(200px);
+    }
+}
 }
 .nav-footer a {
     color: white;
