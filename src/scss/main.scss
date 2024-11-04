@@ -242,7 +242,7 @@ input .menu {
     padding-bottom: 36px;
 
     @media (width > 768px){
-        order: 3;
+        order: 1;
         padding-top: 0;
 }
 }
@@ -250,7 +250,6 @@ input .menu {
     @media (width > 768px){
     display: flex;  
     flex-wrap: wrap-reverse;
-    flex-direction: row-reverse;
     justify-content: space-between;
     margin-left: 5% ;
     margin-right: 12%;
@@ -269,6 +268,6 @@ input .menu {
 .links-redes-footer {
 
     @media (width > 768px){
-        order: 1;
+        order: 3;
 }
 }
