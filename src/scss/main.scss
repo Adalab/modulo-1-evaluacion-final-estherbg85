@@ -79,14 +79,19 @@ input .menu {
     @media (width > 768px){
         padding-inline: 39px;
     }
+    @media (width > 1280px){
+        padding-inline: 275px;
+    }
+ }
 
-}
 .tips {
     padding-top: 40px;
     padding-bottom: 15px;
     font-size: 14px;
     color: #8ccbea
+
 }
+
 .container__title {
     font-family: "roboto slab" serif;
     font-size: 24px;
@@ -96,6 +101,9 @@ input .menu {
     @media (width > 768px){
         font-size:  26px;
 }
+    @media (width > 1280px){
+        font-size: 32px;
+    }
 }
 .container__text {
     font-size: 18px;
@@ -125,6 +133,15 @@ input .menu {
     border:2px solid #f26002;
     margin-bottom: 35px;
     transform: rotate(0deg);
+
+    @media (width > 768px){
+        width: 91px;
+        height: 45px;
+    }
+    @media (width > 1280px){
+        width: 160px;
+        height: 45px;
+    }
 }
 .container-1 {
     text-align: center;
@@ -142,18 +159,19 @@ input .menu {
     @media (width > 768px){
         font-size: 26px;
         padding-bottom: 39px;
-}
+    }
+    @media (width > 1280px){
+        font-size: 32px;
+    }
 }
 .all-article {
     display: grid;
 
-
     @media (width > 768px){
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
-    
 }
-}
+
 .article__title {
     font-family: "Roboto slab", serif;
     font-weight: 700;
@@ -165,7 +183,7 @@ input .menu {
         font-size: 24px;
         padding-bottom: 15px;
     }
-    
+
 }
 .article__text {
     font-family: "Roboto", serif;
@@ -181,13 +199,13 @@ input .menu {
         padding-bottom: 67px;
         margin-left: 35px;
         margin-right: 40px;
-    
-        
-     
+
     }
 
     @media (width > 1280px){
         padding-bottom: 50px;
+      margin-inline: 31px;
+        }
 }
 }
 .reasons:hover {
@@ -207,9 +225,6 @@ input .menu {
     border: solid #f26002;
     transform: rotate(0deg);
     transition: transform 0.4s ease-in-out;
-
-
-   
 }
 .footer {
     font-family: "Roboto", serif;
