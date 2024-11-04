@@ -211,6 +211,7 @@ input .menu {
     color: white;
     text-align: center;
     line-height: 1.88;
+
 }
 .up {
     position: relative;
@@ -224,13 +225,49 @@ input .menu {
 .nav-footer a {
     color: white;
     text-decoration: none;
+
 }
 .links-footer {
     padding-top: 24px;
     padding-bottom:30px ;
+    @media (width > 768px){
+        order: 2;
+        padding-top: 0;
+       
+}
 }
 .copy {
     font-size: 14px;
     padding-top: 32px;
     padding-bottom: 36px;
+
+    @media (width > 768px){
+        order: 3;
+        padding-top: 0;
+}
+}
+.nav-footer{
+    @media (width > 768px){
+    display: flex;  
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: 40px ;
+    margin-right: 90px;
+    text-align: left;
+  
+ 
+}
+}
+.nav-footer ul{
+    @media (width > 768px){
+    list-style-type: none;
+   
+}
+}
+.links-redes-footer {
+
+    @media (width > 768px){
+        order: 1;
+}
 }
