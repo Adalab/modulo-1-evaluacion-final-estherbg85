@@ -203,7 +203,7 @@ a.down {
     @media (width > 1280px){
         padding-bottom: 50px;
         margin-inline: 30px;
-     }
+    }
 }
 
 .reasons:hover {
@@ -242,16 +242,37 @@ a.down {
     border-radius: 50%;
     border: white;
     background-color: white;
-    animation: acelerate 2s  ease infinite forwards;
+    animation: acelerate 3s  ease infinite forwards;
 
-@keyframes acelerate {
-    from {
+    @keyframes acelerate {
+        from {
         transform: translate(0px) ;
+        }
+        to {
+        transform: translateX(135px);
+        }
     }
-    to {
-        transform: translateX(200px);
+    @media (width > 768px){
+        @keyframes acelerate {
+            from {
+            transform: translate(0px) ;
+            }
+            to {
+            transform: translateX(400px);
+            }
+        }
     }
-}
+    @media (width > 1280px){
+        @keyframes acelerate {
+            from {
+            transform: translate(0px) ;
+            }
+            to {
+            transform: translateX(600px);
+            }
+        }
+    }
+
 }
 .nav-footer a {
     color: white;
@@ -289,14 +310,15 @@ a.down {
         margin-inline: 370px;
         margin-top: 50px;    
     }
-}
+ }
 .nav-footer ul{
     @media (width > 768px){
         list-style-type: none;  
     }
-}
+ }
 .social-networks-footer {
     @media (width > 768px){
         order: 3;
     }
 }
+
