@@ -46,30 +46,6 @@
                 }
             }
         }
-    
-    }
-    &_link {
-        color: white;
-        text-decoration: none;
-    }
-    &_links {
-        padding-top: 24px;
-        padding-bottom:30px ;
-    
-        @media (width > 768px){
-            order: 2;
-            padding-top: 0;
-        }
-    }
-    &_copy {
-        font-size: 14px;
-        padding-top: 32px;
-        padding-bottom: 36px;
-    
-        @media (width > 768px){
-            order: 1;
-            padding-top: 0;
-        }
     }
     &_nav {
         @media (width > 768px){
@@ -84,15 +60,38 @@
             margin-inline: 370px;
             margin-top: 50px;    
         }
-     }
+    }
+    &_links {
+        padding-top: 24px;
+        padding-bottom:30px ;
+    
+        @media (width > 768px){
+            order: 2;
+            padding-top: 0;
+        }
+    }
+    &_link {
+        color: white;
+        text-decoration: none;
+    }
      &_list {
         @media (width > 768px){
             list-style-type: none;  
         }
-     }
+    }
     &_networks {
         @media (width > 768px){
             order: 3;
+        }
+    }
+    &_copy {
+        font-size: 14px;
+        padding-top: 32px;
+        padding-bottom: 36px;
+    
+        @media (width > 768px){
+            order: 1;
+            padding-top: 0;
         }
     }
 }
