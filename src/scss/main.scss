@@ -3,11 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
 :root {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;  
 }
+
 .header {
     align-items: center;
     color: white;
@@ -17,7 +19,7 @@
     background-size: cover;
     height: 100vh;
 
-    .header_menu_hamburguer {
+    &_menu_hamburguer {
         position: fixed;
         padding: 10px;
         background-color: #0271bc;
@@ -25,7 +27,7 @@
         font-size: 15px;
         text-decoration: none;
     }
-    .header_title {
+    &_title {
         font-family: "Roboto Slab", serif;
         font-size: 42px;
         text-align: center;
@@ -35,7 +37,6 @@
         margin-inline: auto;
         
         @media (width > 768px) {
-        
             font-size: 80px;
             padding-top: 380px;
             width: 600px;
@@ -46,18 +47,20 @@
             padding-top: 410px;
         }
     }
-    a.header_btn_down {
+    &_link_down {
         margin-inline: auto;
         display: block;
-    }
-    .header_btn_down {
         height: 40px;
         width: 40px;
+    }
+    &_btn_down {
+        height: 100%;
+        width: 100%;
         border-radius: 50%;
         border: white;
         background-color: white;
     }
-    .header_subtitle {
+    &_subtitle {
         font-family: "roboto regular" serif;
         font-weight: 400;
         font-style: normal;
@@ -86,7 +89,7 @@
     @media (width > 1280px){
         padding-inline: 275px;
     }
-    .container_tips {
+    &_tips {
         padding-top: 40px;
         padding-bottom: 15px;
         font-size: 14px;
@@ -96,7 +99,7 @@
             font-size: 16px;
         }
     }
-    .container_title {
+    &_title {
         font-family: "roboto slab" serif;
         font-size: 24px;
         padding-bottom: 20px;
@@ -108,7 +111,7 @@
             font-size: 32px;
         }
     }
-    .container_text {
+    &_text {
         font-size: 18px;
         padding-bottom: 26px;
         color: #4a4a4a;
@@ -117,11 +120,11 @@
             font-size: 20px;
         }
     }
-    .container_btn_go:hover {
+    &_btn_go:hover {
         background-color: #56aee9; 
         transform: scale(1.3); 
     }
-    .container_btn_go {
+    &_btn_go {
         transition: background-color 0.8s ease, transform 0.8s ease;
         font-family: "Roboto", serif;
         font-weight: 500;
@@ -154,7 +157,7 @@
     padding-top: 29px;
     padding-bottom: 70px;
 
-    .spotlight_title {
+    &_title {
         font-family: "Roboto slab", serif;
         font-weight: 700;
         font-style: normal;
@@ -169,7 +172,7 @@
             font-size: 32px;
         }
     }
-    .spotlight_articles {
+    &_articles {
         display: grid;
     
         @media (width > 768px){
@@ -177,7 +180,7 @@
             gap: 20px;
         }
     }
-    .spotlight_subtitle {
+    &_subtitle {
         font-family: "Roboto slab", serif;
         font-weight: 700;
         font-style: normal;
@@ -188,7 +191,7 @@
             padding-bottom: 15px;
         }
     }
-    .spotlight_text {
+    &_text {
         font-family: "Roboto", serif;
         font-weight: 400;
         font-style: normal;
@@ -208,11 +211,11 @@
             margin-inline: 30px;
         }
     }
-    .spotlight_btn_reasons:hover {
+    &_btn_reasons:hover {
         transform: rotate(45deg);
         background-color: #56aee9;
     }
-    .spotlight_btn_reasons {
+    &_btn_reasons {
         font-family: "Roboto", serif;
         font-weight: 500;
         font-style: normal;
@@ -238,7 +241,7 @@
     text-align: center;
     line-height: 1.88;
 
-    .footer_btn_up {
+    &_btn_up {
         position: relative;
         top: -20px;
         height: 40px;
@@ -246,7 +249,7 @@
         border-radius: 50%;
         border: white;
         background-color: white;
-        animation: acelerate 3s  ease infinite forwards;
+        animation: acelerate 10s  ease infinite forwards;
     
         @keyframes acelerate {
             from {
@@ -278,11 +281,11 @@
         }
     
     }
-    .footer_list {
+    &_link {
         color: white;
         text-decoration: none;
     }
-    .footer_links {
+    &_links {
         padding-top: 24px;
         padding-bottom:30px ;
     
@@ -291,7 +294,7 @@
             padding-top: 0;
         }
     }
-    .footer_copy {
+    &_copy {
         font-size: 14px;
         padding-top: 32px;
         padding-bottom: 36px;
@@ -301,7 +304,7 @@
             padding-top: 0;
         }
     }
-    .footer_nav {
+    &_nav {
         @media (width > 768px){
             display: flex;  
             flex-wrap: wrap-reverse;
@@ -315,12 +318,12 @@
             margin-top: 50px;    
         }
      }
-    .footer_nav ul {
+     &_list {
         @media (width > 768px){
             list-style-type: none;  
         }
      }
-    .footer_networks {
+    &_networks {
         @media (width > 768px){
             order: 3;
         }
