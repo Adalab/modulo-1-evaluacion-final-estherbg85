@@ -1,6 +1,6 @@
 .spotlight {
     text-align: center;
-    background-color:  #eff9ff;
+    background-color: $color_background_spotlight;
     padding-top: 29px;
     padding-bottom: 70px;
 
@@ -71,8 +71,8 @@
         height: 44px;
         width: 190px;
         color: white;
-        background-color: #f26002;
-        border: solid #f26002;
+        background-color: $color_buttom;
+        border: solid $color_buttom;
         transform: rotate(0deg);
         transition: transform 0.4s ease-in-out;
     }
