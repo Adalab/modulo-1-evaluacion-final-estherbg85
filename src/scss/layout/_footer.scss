@@ -74,15 +74,16 @@
         color: white;
         text-decoration: none;
     }
-     &_list {
-        @media (width > 768px){
-            list-style-type: none;  
-        }
+    &_links_list {
+        list-style-type: none;  
     }
     &_networks {
         @media (width > 768px){
             order: 3;
         }
+    }
+    &_networks_list {
+        list-style-type: none;  
     }
     &_copy {
         font-size: 14px;
@@ -94,4 +95,8 @@
             padding-top: 0;
         }
     }
+    &_copy_list {
+        list-style-type: none;  
+    }
+    
 }
